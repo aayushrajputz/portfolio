@@ -85,10 +85,13 @@ export default function About() {
               transition={{ duration: 0.5, delay: 0.6 }}
               className="flex gap-4"
             >
-              <button className="flex-1 bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer">
-                <i className="ri-download-line w-5 h-5 flex items-center justify-center"></i>
-                Download Resume
-              </button>
+              <a href="/resume.pdf" download className="flex-1">
+  <button className="flex-1 bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer">
+    <i className="ri-download-line w-5 h-5 flex items-center justify-center"></i>
+    Download Resume
+  </button>
+</a>
+
               <button className="px-6 py-3 border border-cyan-500 text-cyan-400 rounded-xl font-semibold hover:bg-cyan-500/10 transition-all duration-300 flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer">
                 <i className="ri-chat-3-line w-5 h-5 flex items-center justify-center"></i>
                 Let's Talk
