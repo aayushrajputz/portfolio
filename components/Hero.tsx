@@ -8,8 +8,9 @@ export default function Hero() {
   const texts = [
     'Building Scalable Apps',
     'Mastering DSA',
-    'Backend Developer',
-    'Problem Solver'
+    'Backend Engineer',
+    'Problem Solver',
+    'Full-Stack Engineer'
   ];
 
   useEffect(() => {
@@ -74,7 +75,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="text-lg text-gray-400 mb-12 max-w-3xl mx-auto"
           >
-            B.Tech CSE Final Year Student | Targeting Top Product Companies like Razorpay, Intuit & Uber
+            B.Tech CSE Final Year Student | Targeting Top Product Companies
             <br />
             Passionate about Backend Development, Data Structures & Algorithms
           </motion.p>

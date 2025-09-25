@@ -64,7 +64,61 @@ export default function Projects() {
       liveUrl: '#',
       githubUrl: '#',
       category: 'Full-Stack'
+    },
+    {
+      "id": 4,
+      "title": "Distributed Workflow System",
+      "description": "A robust distributed workflow platform designed for managing complex tasks and processes efficiently. Enables real-time monitoring, task orchestration, and system observability using modern tools and best practices.",
+      "image": "https://www.shutterstock.com/image-photo/aidriven-workflow-automating-data-management-260nw-2428568631.jpg",
+      "technologies": [
+        "Node.js",
+        "React",
+        "Next.js",
+        "Express",
+        "MongoDB",
+        "Prometheus",
+        "Grafana",
+        "Slack"
+      ],
+      "features": [
+        "Distributed task orchestration",
+        "Real-time workflow monitoring",
+        "Custom task pipelines",
+        "Scalable microservices architecture",
+        "Performance metrics via Prometheus",
+        "Visual dashboards with Grafana",
+        "Slack-based notifications",
+        "Dynamic task scheduling"
+      ],
+      "liveUrl": "https://distributed-workflow.vercel.app",
+      "githubUrl": "https://github.com/aayushrajputz/distributed-workflow",
+      "category": "Full-Stack"
+    },
+    {
+      "id": 5,
+      "title": "Currency Exchange API",
+      "description": "A high-performance currency exchange service providing live exchange rates with optimized caching and reliability. Built with clean architecture for maintainability and designed for seamless integration into financial systems.",
+      "image": "https://www.shutterstock.com/image-photo/currency-exchange-service-providing-live-260nw-2428568631.jpg",
+      "technologies": [
+        "Go",
+        "REST API",
+        "Docker"
+      ],
+      "features": [
+        "Live exchange rates from ExchangeRate-API.com",
+        "Hourly cache refresh for fast responses",
+        "Clean architecture for easy maintenance",
+        "Input validation with clear error messages",
+        "Health check endpoint",
+        "Retry logic for API requests",
+        "Docker support for containerized deployment"
+      ],
+      "liveUrl": "https://currency-exchange.vercel.app",
+      "githubUrl": "https://github.com/aayushrajputz/currency-exchange",
+      "category": "Backend"
     }
+    
+    
   ];
 
   return (

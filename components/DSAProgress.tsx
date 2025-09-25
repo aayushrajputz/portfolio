@@ -11,13 +11,13 @@ export default function DSAProgress() {
   });
 
   const topicProgress = [
-    { topic: 'Arrays & Strings', progress: 95, problems: 120, color: 'from-green-500 to-emerald-600' },
-    { topic: 'Linked Lists', progress: 88, problems: 45, color: 'from-blue-500 to-cyan-600' },
-    { topic: 'Trees & Graphs', progress: 82, problems: 78, color: 'from-purple-500 to-violet-600' },
-    { topic: 'Dynamic Programming', progress: 75, problems: 65, color: 'from-orange-500 to-red-600' },
-    { topic: 'Sorting & Searching', progress: 92, problems: 55, color: 'from-teal-500 to-green-600' },
-    { topic: 'Backtracking', progress: 70, problems: 35, color: 'from-pink-500 to-rose-600' },
-    { topic: 'Greedy Algorithms', progress: 85, problems: 42, color: 'from-indigo-500 to-blue-600' }
+    { topic: 'Arrays & Strings', progress: 55, problems: 40, color: 'from-green-500 to-emerald-600' },
+    { topic: 'Linked Lists', progress: 56, problems: 35, color: 'from-blue-500 to-cyan-600' },
+    { topic: 'Trees & Graphs', progress: 42, problems: 38, color: 'from-purple-500 to-violet-600' },
+    { topic: 'Dynamic Programming', progress: 35, problems: 35, color: 'from-orange-500 to-red-600' },
+    { topic: 'Sorting & Searching', progress: 52, problems: 45, color: 'from-teal-500 to-green-600' },
+    { topic: 'Backtracking', progress: 30, problems: 35, color: 'from-pink-500 to-rose-600' },
+    { topic: 'Greedy Algorithms', progress: 45, problems: 42, color: 'from-indigo-500 to-blue-600' }
   ];
 
   const csTopics = [
@@ -28,8 +28,7 @@ export default function DSAProgress() {
 
   const achievements = [
     { title: '200+ Problems Solved', icon: 'ri-medal-line', date: 'Nov 2024' },
-    { title: 'GeeksforGeeks Top 15%', icon: 'ri-star-line', date: 'Oct 2024' },
-    { title: 'CodeChef 3-Star Rating', icon: 'ri-award-line', date: 'Sep 2024'}
+     { title: 'CodeChef 3-Star Rating', icon: 'ri-award-line', date: 'Sep 2024'}
   ];
 
   return (
@@ -87,7 +86,7 @@ export default function DSAProgress() {
                 <h4 className="text-green-400 font-semibold">Current Goal</h4>
               </div>
               <p className="text-gray-300">
-                Solving 5 problems daily • Target: 1000+ problems by March 2024
+                Solving 2-3 problems daily • Target: 500+ problems 
               </p>
               <div className="mt-4 flex items-center text-sm text-gray-400">
                 <i className="ri-calendar-line mr-2 w-4 h-4 flex items-center justify-center"></i>
